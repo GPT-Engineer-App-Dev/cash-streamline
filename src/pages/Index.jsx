@@ -5,25 +5,25 @@ const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
       {/* Navigation Bar */}
-      <Box bg="gray.800" color="white" py={4}>
+      <Box bg="#f3f2ef" color="black" py={4}>
         <Flex justify="space-between" align="center" maxW="container.lg" mx="auto">
           <Heading as="h1" size="lg">
             Financial Times
           </Heading>
           <HStack spacing={8}>
-            <Link as={RouterLink} to="/" _hover={{ textDecoration: "none", color: "gray.400" }}>
+            <Link as={RouterLink} to="/" _hover={{ textDecoration: "none", color: "black" }}>
               Home
             </Link>
-            <Link as={RouterLink} to="/world" _hover={{ textDecoration: "none", color: "gray.400" }}>
+            <Link as={RouterLink} to="/world" _hover={{ textDecoration: "none", color: "black" }}>
               World
             </Link>
-            <Link as={RouterLink} to="/business" _hover={{ textDecoration: "none", color: "gray.400" }}>
+            <Link as={RouterLink} to="/business" _hover={{ textDecoration: "none", color: "black" }}>
               Business
             </Link>
-            <Link as={RouterLink} to="/tech" _hover={{ textDecoration: "none", color: "gray.400" }}>
+            <Link as={RouterLink} to="/tech" _hover={{ textDecoration: "none", color: "black" }}>
               Tech
             </Link>
-            <Link as={RouterLink} to="/opinion" _hover={{ textDecoration: "none", color: "gray.400" }}>
+            <Link as={RouterLink} to="/opinion" _hover={{ textDecoration: "none", color: "black" }}>
               Opinion
             </Link>
           </HStack>
